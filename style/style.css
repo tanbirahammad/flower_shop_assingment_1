@@ -17,6 +17,16 @@ border: 0;
 padding: 20px 43px;
 margin-top: 32px;
 }
+.primary_title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 15px;
+}
 
 
 /* Header Section  */
@@ -40,6 +50,7 @@ justify-content: space-between;
     font-size: 80px;
     
     font-weight: 800;
+    
    
 }
 .header_desc{
@@ -49,7 +60,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-margin-top: 32px;
+
 }
 
 .header_img{
@@ -62,3 +73,112 @@ margin-top: 32px;
 
 /* Featured Flower Section  */
 
+.featured_container{
+    width: 1420px;
+    margin-top: 150px;
+}
+
+.featured_desc{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+
+/* Hot Deal section */
+.off{
+    color: #E55473;
+}
+.hot_container{
+    width: 100%;
+height: 620px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+justify-content: space-between;
+
+}
+
+.hot_content{
+    margin: 230px 400px;
+    text-align: center;
+}
+.hot_title{
+    color: #272727;
+font-weight: 700;
+
+
+
+
+}
+
+.hot_desc{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+
+}
+
+
+/* Instragram Section */
+.instra_container{
+    width: 1440px;
+    
+
+    margin: 0 auto;
+
+}
+
+.instra_image{
+    display: flex;
+    gap: 24px;
+}
+.per_image{
+    width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+
+.latest_deal{
+    width: 1440px;
+height: 449px;
+flex-shrink: 0;
+background-image: url(/images/Rectangle\ 9.png);
+
+}
+.latest_deal_content{
+    
+}
+
+.input_content{
+  margin: 120px 300px 200px 200px;
+  
+}
+
+.input_box{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+}
+
+
+/* Footer Section */
+.footer_container{
+    width: 100%;
+height: 449px;
+background: #111010;
+margin-top: 128px;
+
+color: #FFF;
+}
+
+.footer_mng{
+    margin:25px 50px 75px 100px;
+}
